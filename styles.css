@@ -1,0 +1,36 @@
+@media only screen and (min-width: 980px) {
+    .article {
+        width: 980px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .article {
+        width: auto;
+    }
+    .navbar {
+        font-size: 20px;
+    }
+    #mainIMG {
+        width: 40%;
+        height: 40%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .article {
+        width: auto;
+        margin-top: 15px;
+    }
+    .navbar {
+        font-size: 15px;
+    }
+    .image {
+        width: 51%;
+        height: 51%;
+    }
+    #mainIMG {
+        width: auto;
+        height: auto;
+    }
+}

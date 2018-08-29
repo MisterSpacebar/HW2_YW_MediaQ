@@ -1,0 +1,73 @@
+nav {
+    height: 75px;
+    border-bottom: 5px;
+    border-color: teal;
+}
+
+.title {
+    font-size: 35px;
+    float: left;
+    padding: 15px;
+    color: white;
+    background-color: teal;
+}
+
+.navbar {
+    float: right;
+    font-size: 25px;
+    padding: 15px;
+}
+
+#mainIMG {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+    height: 300px;
+}
+
+.article {
+    margin: 0 auto;
+}
+
+.foot {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    color: teal;
+}
+
+img {
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+
+.image {
+    display: block;
+    position: relative;
+    float: left;
+    margin: 15px;
+    height: 40%;
+    width: 40%;
+    border: 10px;
+}
+
+
+.txt {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: teal;
+    color: white;
+}
